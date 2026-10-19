@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="744" height="244" viewBox="0 0 744 244">
+<rect width="100%" height="100%" rx="18" fill="#FFFFFF"/>
+<g transform="translate(24,24)"><rect width="96" height="86" rx="14" fill="#F4F4F2"/>
+<svg x="28" y="14" width="40" height="40" viewBox="-1 -1 22 19" fill="#151515" color="#151515"><path d="M0 16V5a5 5 0 0 1 10 0v11z" transform="rotate(45 10 16)"/>
+<path d="M10 16V5a5 5 0 0 1 10 0v11z" transform="rotate(-45 10 16)"/>
+</svg>
+<text x="48" y="74" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">heart</text></g>
+<g transform="translate(144,24)"><rect width="96" height="86" rx="14" fill="#F4F4F2"/>
+<svg x="28" y="14" width="40" height="40" viewBox="0 0 22 19" fill="#151515" color="#151515"><rect x="0" y="0" width="14" height="2.5" rx="1"/>
+<rect x="0" y="6" width="14" height="2.5" rx="1"/>
+<rect x="0" y="12" width="8" height="2.5" rx="1"/>
+<rect x="11" y="12" width="10" height="2.5" rx="1"/>
+<rect x="14.75" y="8.25" width="2.5" height="10" rx="1"/>
+</svg>
+<text x="48" y="74" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">playlist-add</text></g>
+<g transform="translate(264,24)"><rect width="96" height="86" rx="14" fill="#F4F4F2"/>
+<svg x="28" y="14" width="40" height="40" viewBox="0 0 22 17" fill="#151515" color="#151515"><rect x="2" y="1" width="18" height="2.5" rx="1"/>
+<rect x="2" y="7.25" width="18" height="2.5" rx="1"/>
+<rect x="2" y="13.5" width="12" height="2.5" rx="1"/>
+</svg>
+<text x="48" y="74" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">playlist</text></g>
+<g transform="translate(384,24)"><rect width="96" height="86" rx="14" fill="#F4F4F2"/>
+<svg x="28" y="14" width="40" height="40" viewBox="0 0 20 20" fill="#151515" color="#151515"><circle cx="10" cy="10" r="8.9" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<rect x="10" y="5.2" width="2.2" height="6" rx="1"/>
+<rect x="10" y="10" width="5" height="2.2" rx="1"/>
+</svg>
+<text x="48" y="74" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">history</text></g>
+<g transform="translate(504,24)"><rect width="96" height="86" rx="14" fill="#F4F4F2"/>
+<svg x="28" y="14" width="40" height="40" viewBox="0 0 20 20" fill="#151515" color="#151515"><rect x="8.5" y="1" width="3" height="18" rx="1.5"/>
+<rect x="1" y="8.5" width="18" height="3" rx="1.5"/>
+<rect x="8.9" y="5" width="2.2" height="10" rx="1.5" transform="rotate(45 10 10)"/>
+<rect x="8.9" y="5" width="2.2" height="10" rx="1.5" transform="rotate(-45 10 10)"/>
+</svg>
+<text x="48" y="74" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">new-songs</text></g>
+<g transform="translate(624,24)"><rect width="96" height="86" rx="14" fill="#F4F4F2"/>
+<svg x="28" y="14" width="40" height="40" viewBox="0 0 20 20" fill="#151515" color="#151515"><circle cx="7.5" cy="7.5" r="5.3" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<rect x="12.2" y="11" width="2.6" height="8.5" rx="1" transform="rotate(-45 13.5 15.25)"/>
+</svg>
+<text x="48" y="74" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">search</text></g>
+<g transform="translate(24,134)"><rect width="96" height="86" rx="14" fill="#F4F4F2"/>
+<svg x="28" y="14" width="40" height="40" viewBox="0 0 22 19" fill="#151515" color="#151515"><path d="M0 0L12 8L0 16z"/>
+<rect x="12" y="12" width="10" height="2.5" rx="1"/>
+<rect x="15.75" y="8.25" width="2.5" height="10" rx="1"/>
+</svg>
+<text x="48" y="74" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">play-after</text></g>
+<g transform="translate(144,134)"><rect width="96" height="86" rx="14" fill="#F4F4F2"/>
+<svg x="28" y="14" width="40" height="40" viewBox="0 0 20 12" fill="#151515" color="#151515"><rect x="0" y="0" width="2.5" height="12" rx="1"/>
+<path d="M11.5 0L3.5 6L11.5 12z"/>
+<path d="M19.5 0L11.5 6L19.5 12z"/>
+</svg>
+<text x="48" y="74" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">from-start</text></g>
+<g transform="translate(264,134)"><rect width="96" height="86" rx="14" fill="#F4F4F2"/>
+<svg x="28" y="14" width="40" height="40" viewBox="0 0 14 17" fill="#151515" color="#151515"><rect x="0" y="0" width="14" height="2" rx="1"/>
+<path d="M7 3L13 11H1z"/>
+<rect x="6" y="11" width="2" height="6"/>
+</svg>
+<text x="48" y="74" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">move-top</text></g>
+<g transform="translate(384,134)"><rect width="96" height="86" rx="14" fill="#F4F4F2"/>
+<svg x="28" y="14" width="40" height="40" viewBox="0 0 14 17" fill="#151515" color="#151515"><rect x="6" y="0" width="2" height="6"/>
+<path d="M1 7H13L7 15z"/>
+<rect x="0" y="15" width="14" height="2" rx="1"/>
+</svg>
+<text x="48" y="74" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">move-bottom</text></g>
+<g transform="translate(504,134)"><rect width="96" height="86" rx="14" fill="#F4F4F2"/>
+<svg x="28" y="14" width="40" height="40" viewBox="0 0 18 14" fill="#151515" color="#151515"><rect x="0" y="0" width="18" height="2" rx="1"/>
+<rect x="0" y="6" width="18" height="2" rx="1"/>
+<rect x="0" y="12" width="18" height="2" rx="1"/>
+</svg>
+<text x="48" y="74" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">drag-handle</text></g>
+</svg>
