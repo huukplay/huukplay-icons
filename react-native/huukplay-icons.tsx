@@ -232,6 +232,63 @@ export function DragHandleIcon({ color, size = 18 }: { color: string; size?: num
   );
 }
 
+/** Follow an artist: a person (head and shoulders). */
+export function FollowIcon({ color, size = 20 }: { color: string; size?: number }) {
+  const k = size / 20;
+  return (
+    <View accessible={false} style={{ width: size, height: size }}>
+      <View style={[styles.part, { left: 6 * k, top: 1 * k, width: 8 * k, height: 8 * k, borderRadius: 4 * k, backgroundColor: color }]} />
+      <View
+        style={[styles.part, { left: 2 * k, top: 11 * k, width: 16 * k, height: 8 * k, borderTopLeftRadius: 8 * k, borderTopRightRadius: 8 * k, borderBottomLeftRadius: 1, borderBottomRightRadius: 1, backgroundColor: color }]}
+      />
+    </View>
+  );
+}
+
+/** The song's page: an "i" in a circle. */
+export function SongInfoIcon({ color, size = 26 }: { color: string; size?: number }) {
+  const k = size / 26;
+  return (
+    <View accessible={false} style={{ width: size, height: size }}>
+      <View
+        style={[styles.part, { left: 1 * k, top: 1 * k, width: 24 * k, height: 24 * k, borderRadius: 12 * k, borderWidth: 2.4 * k, borderColor: color }]}
+      />
+      <View style={[styles.part, { left: 11.4 * k, top: 6.5 * k, width: 3.2 * k, height: 3.2 * k, borderRadius: 1.6 * k, backgroundColor: color }]} />
+      <View style={[styles.part, { left: 11.6 * k, top: 11.5 * k, width: 2.8 * k, height: 8.5 * k, backgroundColor: color }]} />
+    </View>
+  );
+}
+
+/** Share: an arrow going up out of an open box (our own shapes). */
+export function ShareIcon({ color, size = 24 }: { color: string; size?: number }) {
+  const k = size / 24;
+  const line = 2.4 * k;
+  return (
+    <View accessible={false} style={{ width: size, height: size }}>
+      {/* the arrow */}
+      <View style={[styles.part, { left: 12 * k - line / 2, top: 2 * k, width: line, height: 13 * k, backgroundColor: color }]} />
+      <View
+        style={[
+          styles.part,
+          { left: 7.4 * k, top: 4.6 * k, width: 6.5 * k, height: line, backgroundColor: color, transform: [{ rotate: '-45deg' }] },
+        ]}
+      />
+      <View
+        style={[
+          styles.part,
+          { left: 10.1 * k, top: 4.6 * k, width: 6.5 * k, height: line, backgroundColor: color, transform: [{ rotate: '45deg' }] },
+        ]}
+      />
+      {/* the open box */}
+      <View style={[styles.part, { left: 3 * k, top: 10 * k, width: line, height: 12 * k, backgroundColor: color }]} />
+      <View style={[styles.part, { left: 21 * k - line, top: 10 * k, width: line, height: 12 * k, backgroundColor: color }]} />
+      <View style={[styles.part, { left: 3 * k, top: 22 * k - line, width: 18 * k, height: line, backgroundColor: color }]} />
+      <View style={[styles.part, { left: 3 * k, top: 10 * k, width: 4.5 * k, height: line, backgroundColor: color }]} />
+      <View style={[styles.part, { left: 16.5 * k, top: 10 * k, width: 4.5 * k, height: line, backgroundColor: color }]} />
+    </View>
+  );
+}
+
 const styles = StyleSheet.create({
   lobe: { position: 'absolute', top: 0 },
   part: { position: 'absolute', borderRadius: 1 },

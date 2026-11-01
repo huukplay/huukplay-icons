@@ -17,6 +17,9 @@ Simple icons drawn for the HUUKPLAY music app, shared openly so anyone can use t
 | Move to top | `svg/move-top.svg` | Move to top |
 | Move to bottom | `svg/move-bottom.svg` | Move to bottom |
 | Drag handle | `svg/drag-handle.svg` | Hold and drag to reorder |
+| Follow | `svg/follow.svg` | Follow an artist |
+| Song info | `svg/song-info.svg` | The song's page |
+| Share | `svg/share.svg` | Share a song's link |
 
 ## Use them
 
