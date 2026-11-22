@@ -20,6 +20,7 @@ Simple icons drawn for the HUUKPLAY music app, shared openly so anyone can use t
 | Follow | `svg/follow.svg` | Follow an artist |
 | Song info | `svg/song-info.svg` | The song's page |
 | Share | `svg/share.svg` | Share a song's link |
+| Back | `svg/back.svg` | Go back (React Native: `BackIcon`, also `filled` for a Back button) |
 
 ## Use them
 

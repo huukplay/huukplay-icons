@@ -289,6 +289,45 @@ export function ShareIcon({ color, size = 24 }: { color: string; size?: number }
   );
 }
 
+/**
+ * Back: a chevron pointing left in a circle. `filled` gives a solid circle with the
+ * chevron in `fill` (for a "Back" button); otherwise an outline like the other icons.
+ */
+export function BackIcon({ color, size = 24, filled = false, fill = '#FFFFFF' }: { color: string; size?: number; filled?: boolean; fill?: string }) {
+  const k = size / 24;
+  const chevron = filled ? fill : color;
+  const arm = 7 * k;
+  return (
+    <View accessible={false} style={{ width: size, height: size }}>
+      <View
+        style={[
+          styles.part,
+          filled
+            ? { left: 0, top: 0, width: size, height: size, borderRadius: size / 2, backgroundColor: color }
+            : { left: 1 * k, top: 1 * k, width: 22 * k, height: 22 * k, borderRadius: 11 * k, borderWidth: 2.4 * k, borderColor: color },
+        ]}
+      />
+      {/* the chevron: two sides of a square, turned 45 degrees */}
+      <View
+        style={[
+          styles.part,
+          {
+            left: 12 * k - arm / 2 + 1.2 * k,
+            top: 12 * k - arm / 2,
+            width: arm,
+            height: arm,
+            borderLeftWidth: 2.4 * k,
+            borderBottomWidth: 2.4 * k,
+            borderColor: chevron,
+            borderBottomLeftRadius: 1 * k,
+            transform: [{ rotate: '45deg' }],
+          },
+        ]}
+      />
+    </View>
+  );
+}
+
 const styles = StyleSheet.create({
   lobe: { position: 'absolute', top: 0 },
   part: { position: 'absolute', borderRadius: 1 },
